@@ -13,3 +13,22 @@ body {
   font-size: 1em;
   font-family: "Neutrif Pro";
 }
+
+button {
+  outline: none !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.primaryBtn {
+  background-color: var(--btnBgColor);
+  color: #ffffff;
+  border-radius: 2em;
+  padding: 0.5em 1.5em;
+  font-size: 1.2em;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+}

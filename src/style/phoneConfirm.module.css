@@ -1,0 +1,42 @@
+.PhoneConfirmContainer {
+    padding: 3em 1.7em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f2f0e4;
+    position: relative
+}
+
+.PhoneConfirmContainer h1 {
+    font-size: 1.3em;
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: 0;
+    color: var(--textColor);
+}
+
+.PhoneConfirmContainer p {
+    font-size: 0.775em;
+    font-weight: 400;
+    font-style: normal;
+    width: 100%;
+    max-width: 270px;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.PhoneConfirmContainer p span {
+    font-weight: 500;
+}
+
+.BackButton {
+    position: absolute;
+    top: 10px;
+    left: 10px;   
+}
+
+.BackButton img {
+    width: 20px;
+}

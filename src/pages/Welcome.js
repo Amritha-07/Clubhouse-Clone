@@ -28,7 +28,7 @@ export default function Welcome() {
                 exact 
                 to='/get_username' 
                 className='primaryBtn d-flex align-items-center mb-3'>
-                    Get your username(" ")
+                    Get your username
                     {/* <img src='' alt='' /> */}
                 </Link>
                 <Link>
