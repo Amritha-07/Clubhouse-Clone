@@ -22,6 +22,10 @@ a {
   text-decoration: none !important;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 .primaryBtn {
   background-color: var(--btnBgColor);
   color: #ffffff;
