@@ -24,7 +24,7 @@ export default function Welcome() {
                 </p>
             </div>
             <div className={style.ActionButton}>
-                <Link exact='true' to='/get_username' className='primaryBtn d-flex align-items-center mb-3'>
+                <Link to='/get_username' className='primaryBtn d-flex align-items-center mb-3'>
                     Get your username
                     {/* <img src='' alt='' /> */}
                 </Link>
