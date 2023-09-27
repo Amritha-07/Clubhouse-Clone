@@ -1,0 +1,98 @@
+.RoomDetailContainer {
+    height: 100%;
+    background-color: #f2f0e4;
+    margin: -1.5em -1em;
+}
+
+.RoomDetailContainer .Head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.8em 0.5em 1.5em 0.5em;
+}
+
+.Head .ArrowIcon {
+    width: 15px;
+    transform: rotate(-90deg);
+    margin-top: -0.5em;
+}
+
+.Head .ProfileImage {
+    width: 25px;
+    border-radius: 0.8em;
+    margin-left: 1.2em;
+}
+
+.Head span {
+    font-size: 1em;
+    margin-left: 0.5em;
+}
+
+.Head svg {
+    font-size: 1.4em;
+}
+
+.RoomDetailCard {
+    background-color: #ffffff;
+    padding: 1em 1em 3em 1em;
+    border-radius: 1.5em 1.5em 0 0;
+    height: 90vh;
+    overflow: auto;
+}
+
+.RoomDetailCard h6 {
+    font-size: 0.675em;
+    color: var(--textColor);
+    font-weight: 500;
+    margin-bottom: 0.3em;
+}
+
+.RoomDetailCard img {
+    width: 70px;
+    border-radius: 1.7em;
+}
+
+.MemberContainer {
+    text-align: center;
+    width: 70px;
+    position: relative;
+}
+
+.MemberContainer .AudioIcon {
+    position: absolute;
+    right: -5px;
+    bottom: 36px;
+    z-index: 5;
+    background-color: #ffffff;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 3px #cccccc;
+}
+
+.MemberContainer .AudioIcon svg {
+    color: #28ae61;
+}
+
+.MemberContainer p {
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+    font-weight: 500;
+    color: #000000;
+}
+
+.MemberContainer span {
+    font-size: 2.5em;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #28ae61;
+    color: #ffffff;
+    margin-right: 0.1em;
+    line-height: 0.8;
+}

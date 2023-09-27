@@ -7,13 +7,14 @@ import { AiOutlinePlus } from 'react-icons/ai'
 import { BsGrid3X3Gap } from 'react-icons/bs' 
 import data from '../data/roomCard.json'
 import BottomSheet from '../components/BottomSheet'
+import newRoomData from '../data/newRoom.json'
 
 export default function Home() {
-    const [itemsVisible, setItemsVisible] = useState(true)
-    const [sheetVisible, setSheetVisible] = useState(false)
-    const [sheetCreateRoom, setSheetCreateRoom] = useState(false)
-    const [loaderVisibility, setLoaderVisibility] = useState(false)
-    const [cardId, setCardId] = useState(1)
+    const [itemsVisible, setItemsVisible] = useState(true);
+    const [sheetVisible, setSheetVisible] = useState(false);
+    const [sheetCreateRoom, setSheetCreateRoom] = useState(false);
+    const [loaderVisibility, setLoaderVisibility] = useState(false);
+    const [cardId, setCardId] = useState(1);
 
     return (
         <>
@@ -54,17 +55,24 @@ export default function Home() {
                 sheetTitle = 'start room'
                 setSheetVisible = {(item) => setSheetVisible(item)}
                 sheetVisible = {sheetVisible}
-                cardDetail = {data.find((item) => item.id == cardId)}
+                cardDetail = {data.find((item) => item.id === cardId)}
                 setItemsVisible = {(item) => setItemsVisible(item)}
                 setSheetCreateRoom = {
                     (item) => {
                         setLoaderVisibility(true);
                         setTimeout(() => {
-                        setSheetCreateRoom(item);
-                        setLoaderVisibility(false);
+                            setSheetCreateRoom(item);
+                            setLoaderVisibility(false);
                         }, 1000);
                     }
                 }
+            />
+            <BottomSheet 
+                sheetTitle = 'new room'
+                setSheetVisible = {(item) => setSheetCreateRoom(item)}
+                sheetVisible = {sheetCreateRoom}
+                cardDetail = {newRoomData}
+                setItemsVisible = {(item) => setItemsVisible(item)}
             />
         </>
     )
