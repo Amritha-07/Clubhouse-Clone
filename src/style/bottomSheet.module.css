@@ -1,0 +1,72 @@
+.BottomSheetContainer {
+    background-color: #ffffff;
+    border-radius: 1.5em 1.5em 0 0;
+    padding: 1.5em 1em;
+    position: relative;
+    height: 100%;
+}
+
+.SwitchLine {
+    position: absolute;
+    top: 6px;
+    left: 50%;
+    transform: translateX('-50%');
+    height: 4px;
+    width: 35px;
+    background-color: #cccccc;
+}
+
+.AddTopicButton {
+    background-color: transparent;
+    border: none;
+    color: #28ae61;
+}
+
+.SelectRoom {
+    border-bottom: 1px solid #cccccc;
+    padding: 1.5em 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.SelectRoom button {
+    border: none;
+    background-color: transparent;
+    border-radius: 1em;
+    padding: 0.5em 1.3em 0.2em 1.3em;
+    color: var(--textColor);
+    line-height: 1.2;
+}
+
+.SelectRoom button.Active {
+    border: 1px solid lightseagreen;
+    background-color: lightblue;
+}
+
+.SelectRoom button div {
+    background-color: lightgreen;
+    border-radius: 1.5em;
+}
+
+.SelectRoom button svg {
+    font-size: 4em;
+}
+
+.BottomSheetContainer p {
+    font-size: 1em;
+    color: var(--textColor);
+    text-align: center;
+    font-weight: 500;
+}
+
+.LetGoButton {
+    font-size: 1.3em;
+    font-weight: 500;
+    border: none;
+    border-radius: 2em;
+    color: #ffffff;
+    background-color: #28ae61;
+    padding: 0.3em 2em;
+    text-align: center;
+}
