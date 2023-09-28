@@ -18,8 +18,8 @@ export default function AllowNotification() {
                         <p>Notifications may include alerts, sounds and icon badges</p>
                     </div>
                     <div className={style.ActionButton}>
-                        <Link exact to='/home'>Don't Allow</Link>
-                        <Link exact to='/home'>Allow</Link>
+                        <Link exact='true' to='/home'>Don't Allow</Link>
+                        <Link exact='true' to='/home'>Allow</Link>
                         <img src='/images/handIcon.svg' className={style.HandIcon} alt='' />
                     </div>
                 </div>

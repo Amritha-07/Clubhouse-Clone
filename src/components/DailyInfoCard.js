@@ -5,8 +5,8 @@ import data from '../data/dailyCard.json'
 export default function DailyInfoCard() {
     return (
         <div className={style.DailyCard}>
-            {data.map((item) => (
-                <div>
+            {data.map((item, index) => (
+                <div key={index}>
                     <span className=''>{item.time}</span>
                     <div>
                         <span>{item.title}</span>

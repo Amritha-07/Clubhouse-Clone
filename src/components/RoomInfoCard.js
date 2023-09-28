@@ -7,8 +7,8 @@ export default function RoomInfoCard() {
     return (
         <>
             <h2>
-                {data.map((item) => (
-                    <div>
+                {data.map((item, index) => (
+                    <div key={index}>
                         <div>
                             <div className={style.RoomCardContainer}>
                                 <h6>{item.title}</h6>
@@ -19,8 +19,8 @@ export default function RoomInfoCard() {
                                         <img src='/images/user-img2.jpg' alt='' />
                                     </div>
                                     <div>
-                                        {item.members.map((person) => (
-                                            <p>
+                                        {item.members.map((person, index) => (
+                                            <p key={index}>
                                                 {person.first_name} {person.last_name} <BsChatDots />
                                             </p>
                                         ))}

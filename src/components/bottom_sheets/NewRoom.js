@@ -31,8 +31,8 @@ export default function NewRoom(props) {
                 <div className={style.RoomDetailCard}>
                     <div className='d-flex align-items-center justify-content-between flex-wrap' style={{ padding: '0.5em 1em' }}>
                         {
-                            card.members.map((item) => (
-                                <div className={style.MemberContainer}>
+                            card.members.map((item, index) => (
+                                <div key={index} className={style.MemberContainer}>
                                     {
                                         micMuteVisible ?
                                         (
@@ -46,7 +46,7 @@ export default function NewRoom(props) {
                                     }
                                     <img src='/images/user-img.jpg' alt='' />
                                     <p>
-                                        <span></span>
+                                        <span>*</span>
                                         {item.first_name}
                                     </p>
                                 </div>
