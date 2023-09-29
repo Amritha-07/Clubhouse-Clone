@@ -8,22 +8,24 @@ import PlanLayout from './pages/Layouts/PlanLayout';
 import PhoneConfirmation from './pages/PhoneConfirmation';
 import Welcome from './pages/Welcome';
 import Explore from './pages/Explore';
+import Profile from './pages/Profile';
 
 function App() {
   return (
     <Router>
         <PlanLayout>
         <Routes>
-          <Route path='/' Component={Welcome}  />
-          <Route path='/invite' Component={PhoneConfirmation} />
-          <Route path='/code_confirm' Component={CodeConfirmation} />
-          <Route path='/allow_notification' Component={AllowNotification} />
+          <Route path='/' element={<Welcome />} />
+          <Route path='/invite' element={<PhoneConfirmation />} />
+          <Route path='/code_confirm' element={<CodeConfirmation />} />
+          <Route path='/allow_notification' element={<AllowNotification />} />
         </Routes>
       </PlanLayout>
       <AppLayout>
         <Routes>
-          <Route path='/home' Component={Home} />
-          <Route path='/explore' Component={Explore} />
+          <Route path='/home' element={<Home />} />
+          <Route path='/explore' element={<Explore />} />
+          <Route path='/profile' element={<Profile />} />
         </Routes>
       </AppLayout>
     </Router>
