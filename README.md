@@ -1,6 +1,20 @@
 # Clubhouse-Clone
 
-A web Application that Replicates the Clubhouse App
+A web Application that Replicates the Clubhouse App.
+
+This project is a web application that replicates the features of Clubhouse using HTML, CSS, JavaScript, and json to create a user-friendly interface that allows the user to join or create audio rooms chat with other users, and more. 
+
+<center>
+    <img src='img/snap_1.png' alt='image' width='60%' name='snap_1'/>
+</center>
+
+<center>
+    <img src='img/snap_2.png' alt='image' width='60%' name='snap_2'/>
+</center>
+
+<center>
+    <img src='img/snap_3.png' alt='image' width='60%' name='snap_3'/>
+</center>
 
 ## Tech-Stack
 
@@ -12,6 +26,9 @@ A web Application that Replicates the Clubhouse App
 - Styled-Components
 
 ## Features
+
+- The application has the layout and style of Clubhouse.
+- The application allows the user enter a room, explore, access profile page and many more.
 
 ## Installation and Usage
 
