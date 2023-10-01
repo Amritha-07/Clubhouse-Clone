@@ -1,0 +1,61 @@
+.UpcomingContainer {
+    padding: 0;
+    height: 100%;
+    overflow: auto;
+    padding-top: 4em;
+    line-height: 1.25;
+}
+
+.UpcomingContainer h6 {
+    text-transform: uppercase;
+    color: var(--textColor);
+    font-size: 1em;
+    padding: 0.5em 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    background-color: #dbd9cd;
+}
+
+.UpcomingCardContainer>div {
+    padding: 0.5em;
+    align-items: center;
+    margin-bottom: 0.5em;
+    border-radius: 0.5em;
+}
+
+.UpcomingCardContainer .UpcomingTime {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+    line-height: 0.75;
+}
+
+.UpcomingCardContainer .UpcomingTime p {
+    font-size: 1em;
+    color: #aaaaaa;
+}
+
+.UpcomingCardContainer .UpcomingTime svg {
+    font-size: 1.2em;
+}
+
+.UpcomingCardContainer>div>h4 {
+    margin-top: -0.5em;
+}
+
+.UpcomingCardContainer img {
+    width: 40px;
+    height: 40px;
+    border-radius: 1em;
+    
+}
+
+.UpcomingCardContainer>div span {
+    font-size: 0.875em;
+    line-height: 0.75;
+    font-weight: 400;
+    color: #000000;
+}
+
+

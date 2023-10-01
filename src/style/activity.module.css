@@ -1,0 +1,44 @@
+.ActivityContainer {
+    padding: 0 0.5em;
+    height: 100%;
+    overflow: auto;
+    padding-top: 5.2em;
+}
+
+.Activities {
+    margin: 0 -0.5em;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    position: relative;
+}
+
+.Activities>div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+
+.Activities img {
+    width: 40px;
+    height: 40px;
+    border-radius: 1.1em;
+}
+
+.Activities p {
+    color: var(--textColor);
+    font-size: 1em;
+    margin-bottom: 0.2em;
+    line-height: 1;
+}
+
+.Activities span {
+    font-weight: 500;
+}
+
+.Activities>div>div:last-child {
+    color: #aaaaaa;
+    padding-left: 1em;
+    white-space: nowrap;
+    text-align: right;
+}

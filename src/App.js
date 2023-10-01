@@ -9,6 +9,8 @@ import PhoneConfirmation from './pages/PhoneConfirmation';
 import Welcome from './pages/Welcome';
 import Explore from './pages/Explore';
 import Profile from './pages/Profile';
+import Activity from './pages/Activity';
+import Upcoming from './pages/Upcoming';
 
 function App() {
   return (
@@ -26,6 +28,8 @@ function App() {
           <Route path='/home' element={<Home />} />
           <Route path='/explore' element={<Explore />} />
           <Route path='/profile' element={<Profile />} />
+          <Route path='/activity' element={<Activity />} />
+          <Route path='/upcoming' element={<Upcoming />} />
         </Routes>
       </AppLayout>
     </Router>
