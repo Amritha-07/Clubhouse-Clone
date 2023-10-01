@@ -1,4 +1,4 @@
-# Disney-Plus-Clone
+# Clubhouse-Clone
 
 A web Application that Replicates the Clubhouse App
 
