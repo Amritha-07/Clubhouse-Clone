@@ -4,6 +4,9 @@
     padding: 1.5em 1em;
     position: relative;
     height: 100%;
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
 }
 
 .SwitchLine {
